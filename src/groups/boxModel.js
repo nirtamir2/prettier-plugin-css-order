@@ -1,23 +1,35 @@
 module.exports = [
   "float",
   "box-sizing",
+
+  //region margin
   "margin",
   "margin-top",
   "margin-right",
   "margin-bottom",
   "margin-left",
+  //endregion
+
+  //region height and width
   "width",
   "min-width",
   "max-width",
   "height",
   "min-height",
   "max-height",
+  //endregion
+
+  //region padding
   "padding",
   "padding-top",
   "padding-right",
   "padding-bottom",
   "padding-left",
+  //endregion
+
   "display",
+
+  //region flexbox
   "flex",
   "flex-basis",
   "flex-direction",
@@ -25,6 +37,9 @@ module.exports = [
   "flex-grow",
   "flex-shrink",
   "flex-wrap",
+  //endregion
+
+  //region grid
   "grid",
   "grid-area",
   "grid-auto-rows",
@@ -43,7 +58,10 @@ module.exports = [
   "grid-template-areas",
   "grid-template-rows",
   "grid-template-columns",
+  //endregion
+
   "gap",
+
   "align-content",
   "align-items",
   "align-self",
@@ -51,6 +69,7 @@ module.exports = [
   "justify-items",
   "justify-self",
   "order",
+
   "object-fit",
   "object-position",
   "overflow",
