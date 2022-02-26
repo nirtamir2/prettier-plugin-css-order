@@ -1,6 +1,5 @@
 module.exports = [
   "float",
-  "clear",
   "box-sizing",
   "margin",
   "margin-top",
@@ -57,4 +56,5 @@ module.exports = [
   "overflow",
   "overflow-x",
   "overflow-y",
+  "clear",
 ];
