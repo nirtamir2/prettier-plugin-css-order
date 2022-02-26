@@ -33,6 +33,7 @@
     "src"
   ],
   "scripts": {
+    "format": "prettier **/* --write --ignore-unknown",
     "test": "node test"
   },
   "dependencies": {

@@ -1,7 +1,7 @@
-const prettier = require('prettier');
+const prettier = require("prettier");
 
-const red = str => '\033[31m' + str + '\033[39m'
-const green = str => '\033[32m' + str + '\033[39m';
+const red = (str) => "\033[31m" + str + "\033[39m";
+const green = (str) => "\033[32m" + str + "\033[39m";
 
 const tests = {
   css: {
@@ -72,34 +72,34 @@ const tests = {
 }
 `,
   },
-}
+};
 
-const color = passed => passed ? green : red;
+const color = (passed) => (passed ? green : red);
 
 async function testGroup(ext) {
-  const files = ['style', 'foo/bar/style', 'foo\\bar\\styles'];
-  console.group(ext)
+  const files = ["style", "foo/bar/style", "foo\\bar\\styles"];
+  console.group(ext);
   files
-    .map(n => `${n}.${ext}`)
-    .forEach(filepath => {
+    .map((n) => `${n}.${ext}`)
+    .forEach((filepath) => {
       const { input, expected } = tests[ext];
       const output = prettier.format(input, {
         filepath,
-        plugins: ['.'],
-      })
+        plugins: ["."],
+      });
       const passed = output === expected;
-      console.log(color(passed)(`${passed ? '✔' : '✖'} ${filepath}`));
+      console.log(color(passed)(`${passed ? "✔" : "✖"} ${filepath}`));
       if (!passed) {
         console.log(output, expected);
-        process.exitCode = 1
+        process.exitCode = 1;
       }
-    })
-  console.groupEnd()
+    });
+  console.groupEnd();
 }
 
 async function run() {
   const exts = Object.keys(tests);
-  exts.forEach(ext => testGroup(ext));
+  exts.forEach((ext) => testGroup(ext));
 }
 
 run();
