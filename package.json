@@ -1,0 +1,49 @@
+{
+  "name": "@nirtamir2/prettier-plugin-css-order",
+  "version": "0.0.1",
+  "description": "Prettier plugin which sorts related style property declarations",
+  "keywords": [
+    "prettier",
+    "plugin",
+    "style",
+    "css",
+    "order",
+    "group"
+  ],
+  "homepage": "https://github.com/nirtamir2/@nirtamir2/prettier-plugin-css-order",
+  "bugs": {
+    "url": "https://github.com/nirtamir2/@nirtamir2/prettier-plugin-css-order/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirtamir2/@nirtamir2/prettier-plugin-css-order.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nir Tamir",
+    "email": "nirtamir2@gmail.com",
+    "url": "https://nirtamir.com/"
+  },
+  "main": "src/index.js",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "postcss": "^8.4.7",
+    "postcss-sorting": "^7.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "prettier-plugin-packagejson": "^2.2.15"
+  },
+  "peerDependencies": {
+    "prettier": ">= 1.13"
+  }
+}
