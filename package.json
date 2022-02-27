@@ -1,6 +1,7 @@
 {
   "name": "@nirtamir2/prettier-plugin-css-order",
   "version": "0.0.1",
+  "private": false,
   "description": "Prettier plugin which sorts related style property declarations",
   "keywords": [
     "prettier",
@@ -46,5 +47,9 @@
   },
   "peerDependencies": {
     "prettier": ">= 1.13"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
