@@ -1,18 +1,29 @@
 # @nirtamir2/prettier-plugin-css-order
 
-This is just a prettier plugin that helps you to order your css properties in the order I like.
+This is a prettier plugin that helps you to order your css properties in the order I like.
 
-## Motivation
+## Installation
 
-This project aims to:
+### pnpm
 
-- Create a package contains the stylistic order I like:
-  - It Contains all css properties (the other orders not contains new css and are deprecated)
-  - Move margins to be above height / width
-- Create a prettier plugin that sort the css properties according to my order (I want to use it)
-- Create a stylelint plugin that sort the css properties according to my order (because it's easy, and some people can find it helpful)
+```
+pnpm add -D @nirtamir2/prettier-plugin-css-order
+```
 
-It helps order and format
+add the plugin to `.prettierrc.js`
+
+```
+module.exports = {
+  plugins: [
+    require.resolve("@nirtamir2/prettier-plugin-css-order"),
+  ],
+```
+
+### npm
+
+```
+npm install -D @nirtamir2/prettier-plugin-css-order
+```
 
 ## Credits
 
