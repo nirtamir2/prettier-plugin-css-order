@@ -19,6 +19,19 @@ module.exports = [
   "max-height",
   //endregion
 
+  //region align self
+  "flex",
+  "align-self",
+  "justify-self",
+  "grid-area",
+  "grid-row",
+  "grid-row-start",
+  "grid-row-end",
+  "grid-column",
+  "grid-column-start",
+  "grid-column-end",
+  //endregion
+
   //region padding
   "padding",
   "padding-top",
@@ -30,7 +43,6 @@ module.exports = [
   "display",
 
   //region flexbox
-  "flex",
   "flex-basis",
   "flex-direction",
   "flex-flow",
@@ -41,19 +53,9 @@ module.exports = [
 
   //region grid
   "grid",
-  "grid-area",
   "grid-auto-rows",
   "grid-auto-columns",
   "grid-auto-flow",
-  "grid-gap",
-  "grid-row",
-  "grid-row-start",
-  "grid-row-end",
-  "grid-row-gap",
-  "grid-column",
-  "grid-column-start",
-  "grid-column-end",
-  "grid-column-gap",
   "grid-template",
   "grid-template-areas",
   "grid-template-rows",
@@ -61,13 +63,15 @@ module.exports = [
   //endregion
 
   "gap",
+  "grid-gap",
+  "grid-row-gap",
+  "grid-column-gap",
 
   "align-content",
   "align-items",
-  "align-self",
   "justify-content",
   "justify-items",
-  "justify-self",
+
   "order",
 
   "object-fit",

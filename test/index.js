@@ -19,11 +19,11 @@ const tests = {
 `,
     expected: `a {
   position: relative;
-  display: block;
+  margin: 10px;
   width: auto;
   height: auto;
-  margin: 10px;
   padding: 10px;
+  display: block;
   color: red;
   background: white;
   border: 1px solid blue;
@@ -53,11 +53,11 @@ const tests = {
 `,
     expected: `a {
   position: relative;
-  display: block;
+  margin: 10px;
   width: auto;
   height: auto;
-  margin: 10px;
   padding: 10px;
+  display: block;
   color: red;
   background: white;
   border: 1px solid blue;
