@@ -10,13 +10,13 @@
     "order",
     "group"
   ],
-  "homepage": "https://github.com/nirtamir2/@nirtamir2/prettier-plugin-css-order",
+  "homepage": "https://github.com/nirtamir2/prettier-plugin-css-order",
   "bugs": {
-    "url": "https://github.com/nirtamir2/@nirtamir2/prettier-plugin-css-order/issues"
+    "url": "https://github.com/nirtamir2/prettier-plugin-css-order/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nirtamir2/@nirtamir2/prettier-plugin-css-order.git"
+    "url": "git+https://github.com/nirtamir2/prettier-plugin-css-order.git"
   },
   "license": "MIT",
   "author": {
