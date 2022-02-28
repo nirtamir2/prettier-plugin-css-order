@@ -2,6 +2,8 @@
 
 This is a prettier plugin that helps you to order your css properties in the order I like.
 
+[![npm version](https://badge.fury.io/js/@nirtamir2%2Fprettier-plugin-css-order.svg)](https://badge.fury.io/js/@nirtamir2%2Fprettier-plugin-css-order)
+
 ## Installation
 
 ### pnpm
